@@ -15,337 +15,357 @@
 
 
 <body>
-  <header class="border">
-    <div class="container-header flex-header">
-      <a class="link" href="./">
-        <span class="logo logo-header"><span class="logo-blue">Web</span>Studio</span>
-      </a>
-      <nav>
-        <ul class="nav-placement-1">
-          <li class="nav-grup-1"><a class="link-nav nav-text-1 nav-underline nav-under-active" href="./">Agencja</a>
-          </li>
-          <li class="nav-grup-1"><a class="link-nav nav-text-1 nav-underline" href="./portfolio.html">Portfolio</a></li>
-          <li class="nav-grup-1"><a class="link-nav nav-text-1 nav-underline" href="">Kontakt</a></li>
-        </ul>
-      </nav>
-      <ul class="nav-placement-2">
-        <li class="nav-grup-2">
-          <a class="link-nav nav-text-2" href="mailto:info@devstudio.com" rel="noreferrer noopener">
-            <svg class="header-icon-1">
-              <use href="./images/symbol-defs.svg#icon-envelope"></use>
-            </svg>info@devstudio.com</a>
+  <header class="header">
+    <a class="header__link" href="./">
+      <span class="logo logo--black"><span class="logo--blue">Web</span>Studio</span>
+    </a>
+    <nav>
+      <ul class="header__placement-1">
+        <li class="header__grup-1"><a class="header__nav header__nav--black header__underline header__underline--active"
+            href="./">Agencja</a>
         </li>
-        <li class="nav-grup-2">
-          <a class="link-nav nav-text-2" href="tel:+48111111111" rel="noreferrer noopener"><svg class="header-icon-2">
-              <use href="./images/symbol-defs.svg#icon-smartphone"></use>
-            </svg>+48 111 111 111</a>
+        <li class="header__grup-1"><a class="header__nav header__nav--black header__underline"
+            href="./portfolio.html">Portfolio</a>
         </li>
+        <li class="header__grup-1"><a class="header__nav header__nav--black header__underline" href="">Kontakt</a></li>
       </ul>
-    </div>
+    </nav>
+    <ul class="header__placement-2">
+      <li class="header__grup-2">
+        <a class="header__nav header__nav--grey" href="mailto:info@devstudio.com" rel="noreferrer noopener">
+          <svg class="header__icon-1">
+            <use href="./images/symbol-defs.svg#icon-envelope"></use>
+          </svg>info@devstudio.com</a>
+      </li>
+      <li class="header__grup-2">
+        <a class="header__nav header__nav--grey" href="tel:+48111111111" rel="noreferrer noopener"><svg
+            class="header__icon-2">
+            <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+          </svg>+48 111 111 111</a>
+      </li>
+    </ul>
   </header>
 
 
   <main>
-    <section class="section-1 sec-1-background">
-      <div class="container sec-1-flex">
-        <h1 class="sec-1-headline">EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU</h1>
-        <button class="order-button" type="button" data-modal-open>Zamów usługę</button>
+    <section class="sec-1">
+      <div class="sec-1__flex">
+        <h1 class="sec-1__headline">EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU</h1>
+        <button class="sec-1__button" type="button" data-modal-open>Zamów usługę</button>
       </div>
     </section>
+
+
     <section class="section">
-      <ul class="container sec-2-flex">
+      <ul class="sec-2">
         <li>
-          <svg class="sec-2-image">
+          <svg class="sec-2__image">
             <use href="./images/symbol-defs.svg#icon-antenna"></use>
           </svg>
-          <p class="sec-2-head">LOREM IPSUM</p>
-          <p class="sec-2-text">
+          <p class="sec-2__head">LOREM IPSUM</p>
+          <p class="sec-2__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
         <li>
-          <svg class="sec-2-image">
+          <svg class="sec-2__image">
             <use href="./images/symbol-defs.svg#icon-astronaut"></use>
           </svg>
-          <p class="sec-2-head">LOREM IPSUM</p>
-          <p class="sec-2-text">
+          <p class="sec-2__head">LOREM IPSUM</p>
+          <p class="sec-2__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
         <li>
-          <svg class="sec-2-image">
+          <svg class="sec-2__image">
             <use href="./images/symbol-defs.svg#icon-clock"></use>
           </svg>
-          <p class="sec-2-head">LOREM IPSUM</p>
-          <p class="sec-2-text">
+          <p class="sec-2__head">LOREM IPSUM</p>
+          <p class="sec-2__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
         <li>
-          <svg class="sec-2-image">
+          <svg class="sec-2__image">
             <use href="./images/symbol-defs.svg#icon-diagram"></use>
           </svg>
-          <p class="sec-2-head">LOREM IPSUM</p>
-          <p class="sec-2-text">
+          <p class="sec-2__head">LOREM IPSUM</p>
+          <p class="sec-2__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
       </ul>
     </section>
-    <section class="sec-3-container-fix">
-      <div class="container">
-        <p class="section-headline">Czym się zajmujemy</p>
-        <ul class="sec-3-flex">
-          <li class="sec-3-grup">
-            <div class="sec-3-img-box">
-              <img src="./images/thing1.jpg" alt="pisanie kodu programu" width="370" height="294" />
-              <p class="sec-3-img-text">APLIKACJE KOMPUTEROWE</p>
-            </div>
-          </li>
-          <li class="sec-3-grup">
-            <div class="sec-3-img-box">
-              <img src="./images/thing2.jpg" alt="testowanie aplikacji" width="370" height="294" />
-              <p class="sec-3-img-text">APLIKACJE MOBILNE</p>
-            </div>
-          </li>
-          <li class="sec-3-grup">
-            <div class="sec-3-img-box">
-              <img src="./images/thing3.jpg" alt="projektowanie strony" width="370" height="294" />
-              <p class="sec-3-img-text">ROZWIĄZANIA GRAFICZNE</p>
-            </div>
-          </li>
-        </ul>
-      </div>
+
+
+    <section class="sec-3">
+      <p class="sec-3__headline">Czym się zajmujemy</p>
+      <ul class="sec-3__flex">
+        <li class="sec-3__grup">
+          <div class="signed-foto">
+            <img src="./images/thing1.jpg" alt="pisanie kodu programu" width="370" height="294" />
+            <p class="signed-foto__text">APLIKACJE KOMPUTEROWE</p>
+          </div>
+        </li>
+        <li class="sec-3__grup">
+          <div class="signed-foto">
+            <img src="./images/thing2.jpg" alt="testowanie aplikacji" width="370" height="294" />
+            <p class="signed-foto__text">APLIKACJE MOBILNE</p>
+          </div>
+        </li>
+        <li class="sec-3__grup">
+          <div class="signed-foto">
+            <img src="./images/thing3.jpg" alt="projektowanie strony" width="370" height="294" />
+            <p class="signed-foto__text">ROZWIĄZANIA GRAFICZNE</p>
+          </div>
+        </li>
+      </ul>
     </section>
-    <section class="section background-light-grey">
-      <div class="container">
-        <p class="section-headline">Nasz zespół</p>
-        <ul class="sec-4-flex">
-          <li class="sec-4-grup">
-            <figure class="sec-4-border">
-              <img src="./images/person1.jpg" alt="brodaty mężczyzna" width="270" height="260" />
-              <figcaption>
-                <p class="team-member">Jon Doe</p>
-                <p class="member-position ">Product designer</p>
-                <ul class="sec-4-icon-flex">
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                      </svg></a>
-                  </li>
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                      </svg></a>
-                  </li>
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                      </svg></a>
-                  </li>
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                      </svg></a>
-                  </li>
-                </ul>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="sec-4-grup">
-            <figure class="sec-4-border">
-              <img src="./images/person2.jpg" alt="kobieta" width="270" height="260" />
-              <figcaption>
-                <p class="team-member">Jon Doe</p>
-                <p class="member-position ">Frontend Developer</p>
-                <ul class="sec-4-icon-flex">
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                      </svg></a>
-                  </li>
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                      </svg></a>
-                  </li>
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                      </svg></a>
-                  </li>
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                      </svg></a>
-                  </li>
-                </ul>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="sec-4-grup">
-            <figure class="sec-4-border">
-              <img src="./images/person3.jpg" alt="mężczyzna" width="270" height="260" />
-              <figcaption>
-                <p class="team-member">Jon Doe</p>
-                <p class="member-position ">Marketing</p>
-                <ul class="sec-4-icon-flex">
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                      </svg></a>
-                  </li>
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                      </svg></a>
-                  </li>
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                      </svg></a>
-                  </li>
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                      </svg></a>
-                  </li>
-                </ul>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="sec-4-grup">
-            <figure class="sec-4-border">
-              <img src="./images/person4.jpg" alt="brodaty mężczyzna z tatuażem" width="270" height="260" />
-              <figcaption>
-                <p class="team-member">Jon Doe</p>
-                <p class="member-position">UI Designer</p>
-                <ul class="sec-4-icon-flex">
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                      </svg></a>
-                  </li>
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                      </svg></a>
-                  </li>
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                      </svg></a>
-                  </li>
-                  <li class="sec-4-icon-grup">
-                    <a href="./" rel="noreferrer noopener" class="sec-4-icon-background"><svg class="sec-4-icon">
-                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                      </svg></a>
-                  </li>
-                </ul>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </div>
+
+
+    <section class="sec-4">
+      <p class="sec-4__headline">Nasz zespół</p>
+      <ul class="sec-4__flex">
+        <li class="sec-4__grup">
+          <figure class="member-card">
+            <img src="./images/person1.jpg" alt="brodaty mężczyzna" width="270" height="260" />
+            <figcaption>
+              <p class="member-card__name">Jon Doe</p>
+              <p class="member-card__position">Product designer</p>
+              <ul class="member-card__flex">
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg></a>
+                </li>
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg></a>
+                </li>
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg></a>
+                </li>
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg></a>
+                </li>
+              </ul>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="sec-4__grup">
+          <figure class="member-card">
+            <img src="./images/person2.jpg" alt="kobieta" width="270" height="260" />
+            <figcaption>
+              <p class="member-card__name">Jon Doe</p>
+              <p class="member-card__position">Frontend Developer</p>
+              <ul class="member-card__flex">
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg></a>
+                </li>
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg></a>
+                </li>
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg></a>
+                </li>
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg></a>
+                </li>
+              </ul>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="sec-4__grup">
+          <figure class="member-card">
+            <img src="./images/person3.jpg" alt="mężczyzna" width="270" height="260" />
+            <figcaption>
+              <p class="member-card__name">Jon Doe</p>
+              <p class="member-card__position">Marketing</p>
+              <ul class="member-card__flex">
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg></a>
+                </li>
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg></a>
+                </li>
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg></a>
+                </li>
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg></a>
+                </li>
+              </ul>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="sec-4__grup">
+          <figure class="member-card">
+            <img src="./images/person4.jpg" alt="brodaty mężczyzna z tatuażem" width="270" height="260" />
+            <figcaption>
+              <p class="member-card__name">Jon Doe</p>
+              <p class="member-card__position">UI Designer</p>
+              <ul class="member-card__flex">
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg></a>
+                </li>
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg></a>
+                </li>
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg></a>
+                </li>
+                <li class="member-card__grup">
+                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                      class="member-card__svg">
+                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg></a>
+                </li>
+              </ul>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
     </section>
-    <section class="section">
-      <div class="container">
-        <p class="section-headline">Nasi klienci</p>
-        <ul class="sec-5-flex">
-          <li class="sec-5-grup">
-            <svg tabindex="0" class="sec-5-logo">
-              <use href="./images/symbol-defs.svg#icon-logo-1">
-              </use>
-            </svg>
-          </li>
-          <li class="sec-5-grup">
-            <svg tabindex="0" class="sec-5-logo">
-              <use href="./images/symbol-defs.svg#icon-logo-2">
-              </use>
-            </svg>
-          </li>
-          <li class="sec-5-grup">
-            <svg tabindex="0" class="sec-5-logo">
-              <use href="./images/symbol-defs.svg#icon-logo-3">
-              </use>
-            </svg>
-          </li>
-          <li class="sec-5-grup">
-            <svg tabindex="0" class="sec-5-logo">
-              <use href="./images/symbol-defs.svg#icon-logo-4">
-              </use>
-            </svg>
-          </li>
-          <li class="sec-5-grup">
-            <svg tabindex="0" class="sec-5-logo">
-              <use href="./images/symbol-defs.svg#icon-logo-5">
-              </use>
-            </svg>
-          </li>
-          <li class="sec-5-grup">
-            <svg tabindex="0" class="sec-5-logo">
-              <use href="./images/symbol-defs.svg#icon-logo-6">
-              </use>
-            </svg>
-          </li>
-        </ul>
-      </div>
+
+
+    <section class="sec-5">
+      <p class="sec-5__headline">Nasi klienci</p>
+      <ul class="sec-5__flex">
+        <li class="sec-5__grup">
+          <svg tabindex="0" class="sec-5__logo">
+            <use href="./images/symbol-defs.svg#icon-logo-1">
+            </use>
+          </svg>
+        </li>
+        <li class="sec-5__grup">
+          <svg tabindex="0" class="sec-5__logo">
+            <use href="./images/symbol-defs.svg#icon-logo-2">
+            </use>
+          </svg>
+        </li>
+        <li class="sec-5__grup">
+          <svg tabindex="0" class="sec-5__logo">
+            <use href="./images/symbol-defs.svg#icon-logo-3">
+            </use>
+          </svg>
+        </li>
+        <li class="sec-5__grup">
+          <svg tabindex="0" class="sec-5__logo">
+            <use href="./images/symbol-defs.svg#icon-logo-4">
+            </use>
+          </svg>
+        </li>
+        <li class="sec-5__grup">
+          <svg tabindex="0" class="sec-5__logo">
+            <use href="./images/symbol-defs.svg#icon-logo-5">
+            </use>
+          </svg>
+        </li>
+        <li class="sec-5__grup">
+          <svg tabindex="0" class="sec-5__logo">
+            <use href="./images/symbol-defs.svg#icon-logo-6">
+            </use>
+          </svg>
+        </li>
+      </ul>
     </section>
   </main>
 
 
-  <footer class="background-grey footer-sec">
-    <div class="container footer-flex-1">
-      <div class="footer-flex-1-grup">
-        <span class="logo logo-white"><span class="logo-blue">Web</span>Studio</span>
+  <footer class="footer">
+    <div class="footer__flex">
+      <div class="footer__flex-grup">
+        <span class="logo logo--white"><span class="logo--blue">Web</span>Studio</span>
         <address>
-          <p class="botton-address-1 footer-p">m. Warszawa, Aleje Jerozolimskie 21</p>
-          <p class="footer-p"><a class="botton-address-2" href="mailto:info@example.com"
+          <p class="footer__p footer__address-white">m. Warszawa, Aleje Jerozolimskie 21</p>
+          <p class="footer__p"><a class="footer__address-gray" href="mailto:info@example.com"
               rel="noreferrer noopener">info@example.com
             </a>
           </p>
-          <p class="footer-p"><a class="botton-address-2" href="tel:+48111111111" rel="noreferrer noopener">+48 111 111
-              111</a>
+          <p class="footer__p"><a class="footer__address-gray" href="tel:+48111111111" rel="noreferrer noopener">+48 111
+              111 111</a>
           </p>
         </address>
       </div>
-      <div class="footer-flex-1-grup">
-        <p class="social-title-footer">DOŁĄCZ DO NAS</p>
-        <ul class="footer-flex-2">
-          <li class="footer-flex-2-grup">
-            <a href="./" rel="noreferrer noopener" class="social-icon-background"><svg class="social-icon-footer">
+      <div class="footer__flex-grup">
+        <p class="footer__title">DOŁĄCZ DO NAS</p>
+        <ul class="footer__flex-2">
+          <li class="footer__flex-2-grup">
+            <a href="./" rel="noreferrer noopener" class="footer__icon-background"><svg class="footer__icon">
                 <use href="./images/symbol-defs.svg#icon-instagram"></use>
               </svg></a>
           </li>
-          <li class="footer-flex-2-grup">
-            <a href="./" rel="noreferrer noopener" class="social-icon-background"><svg class="social-icon-footer">
+          <li class="footer__flex-2-grup">
+            <a href="./" rel="noreferrer noopener" class="footer__icon-background"><svg class="footer__icon">
                 <use href="./images/symbol-defs.svg#icon-twitter"></use>
               </svg></a>
           </li>
-          <li class="footer-flex-2-grup">
-            <a href="./" rel="noreferrer noopener" class="social-icon-background"><svg class="social-icon-footer">
+          <li class="footer__flex-2-grup">
+            <a href="./" rel="noreferrer noopener" class="footer__icon-background"><svg class="footer__icon">
                 <use href="./images/symbol-defs.svg#icon-facebook"></use>
               </svg></a>
           </li>
-          <li class="footer-flex-2-grup">
-            <a href="./" rel="noreferrer noopener" class="social-icon-background"><svg class="social-icon-footer">
+          <li class="footer__flex-2-grup">
+            <a href="./" rel="noreferrer noopener" class="footer__icon-background"><svg class="footer__icon">
                 <use href="./images/symbol-defs.svg#icon-linkedin"></use>
               </svg></a>
           </li>
         </ul>
       </div>
-      <div class="footer-flex-1-grup">
-        <p class="newsletter-title">ZAPISZ SIĘ DO NEWSLETTERA</p>
-        <form name="newsletter_signup" autocomplete="on" novalidate class="newsletter-flex">
+      <div class="footer__flex-grup">
+        <p class="footer__newsletter">ZAPISZ SIĘ DO NEWSLETTERA</p>
+        <form name="newsletter_signup" autocomplete="on" novalidate class="footer__newsletter-flex">
           <label>
             <input type="email" name="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-              class="newsletter-imputbox" />
+              class="footer__imputbox" />
           </label>
-          <button type="submit" class="newsletter-button">Zapisz się <svg class="newsletter-button-svg">
+          <button type="submit" class="footer__button">Zapisz się <svg class="footer__button-svg">
               <use href="./images/symbol-defs.svg#icon-send-form"></use>
             </svg></button>
         </form>
@@ -354,56 +374,56 @@
   </footer>
 
 
-  <div class="backdrop is-hidden" data-modal>
-    <div class="modal-body">
-      <button type="button" class="modal-x-button" data-modal-close>
-        <svg class="x-symbol">
+  <div class="backdrop modal__hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="modal__x-button" data-modal-close>
+        <svg class="modal__x-symbol">
           <use class="" href="./images/symbol-defs.svg#icon-close-symbol"></use>
         </svg>
       </button>
 
-      <p class="modal-title">Zostaw swoje dane w formularzu poniżej</p>
-      <form class="modal-flex">
+      <p class="modal__title">Zostaw swoje dane w formularzu poniżej</p>
+      <form class="modal__flex">
 
-        <label class="modal-subtitle">Imie
-          <input type="text" name="name" class="modal-imput" placeholder="" />
-          <svg class="modal-svg">
+        <label class="modal__subtitle">Imie
+          <input type="text" name="name" class="modal__imput" placeholder="" />
+          <svg class="modal__svg">
             <use href="./images/symbol-defs.svg#icon-person-form"></use>
           </svg>
         </label>
 
-        <label class="modal-subtitle">Telefon
-          <input type="tel" name="phone" class="modal-imput" />
-          <svg class="modal-svg">
+        <label class="modal__subtitle">Telefon
+          <input type="tel" name="phone" class="modal__imput" />
+          <svg class="modal__svg">
             <use href="./images/symbol-defs.svg#icon-phone-form"></use>
           </svg>
         </label>
 
-        <label class="modal-subtitle">Email
-          <input type="email" name="email" class="modal-imput" />
-          <svg class="modal-svg">
+        <label class="modal__subtitle">Email
+          <input type="email" name="email" class="modal__imput" />
+          <svg class="modal__svg">
             <use href="./images/symbol-defs.svg#icon-email-form"></use>
           </svg>
         </label>
 
-        <label class="modal-subtitle">Komentarz
-          <textarea name="coment" placeholder="Wprowadź tekst" class="modal-textbox"></textarea>
+        <label class="modal__subtitle">Komentarz
+          <textarea name="coment" placeholder="Wprowadź tekst" class="modal__textbox"></textarea>
         </label>
 
-        <div class="modal-checkbox-box1">
-          <div class="modal-checkbox-box2">
-            <input type="checkbox" name="consent" id="rule-checkbox" required class="modal-checkbox" />
-            <label for="rule-checkbox" class="modal-check-label">
-              <svg class="modal-checkbox-svg">
+        <div class="modal__checkbox-box1">
+          <div class="modal__checkbox-box2">
+            <input type="checkbox" name="consent" id="rule-checkbox" required class="modal__checkbox" />
+            <label for="rule-checkbox" class="modal__check-label">
+              <svg class="modal__checkbox-svg">
                 <use href="./images/symbol-defs.svg#icon-checkmark"></use>
               </svg>
             </label>
           </div>
-          <p class="modal-text">Oświadczam iż przeczytałem<a class="modal-link" href="#">Regulamin</a>i<a
-              class="modal-link" href="#">Politykę Prywatności.</a></p>
+          <p class="modal__text">Oświadczam iż przeczytałem<a class="modal__link" href="#">Regulamin</a>i<a
+              class="modal__link" href="#">Politykę Prywatności.</a></p>
         </div>
 
-        <button type="submit" class="modal-button">Wyślij</button>
+        <button type="submit" class="modal__button">Wyślij</button>
 
       </form>
     </div>
