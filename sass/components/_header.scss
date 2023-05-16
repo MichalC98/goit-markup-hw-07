@@ -1,0 +1,133 @@
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+
+    &--black {
+            color: $black
+        }
+
+    &--blue {
+        color: $main-blue
+    }
+}
+
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 18px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $hedder-border;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.header__placement-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 93px;
+    padding: 0;
+}
+
+.header__grup-1 {
+    margin-right: 46px;
+    position: relative;
+
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    
+    &:hover,
+    &:focus {
+        color: $main-blue;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    }
+}
+
+.header__nav--black {
+    color: $lighter-black;
+}
+.header__underline {
+
+    &:hover::after {
+        content: '';
+        position: absolute;
+        left: 0%;
+        top: 45px;
+        width: 100%;
+        border-bottom: solid 4px $main-blue;
+        border-radius: 4px;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &--active {
+        color: $main-blue;
+        
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0%;
+            top: 45px;
+            width: 100%;
+            border-bottom: solid 4px $main-blue;
+            border-radius: 4px;
+        }
+    }
+
+}
+
+.header__placement-2 {
+    display: flex;
+    align-items: center;
+    margin-left: 345px;
+    padding: 0;
+}
+
+.header__grup-2 {
+    margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.header__nav--grey {
+    color: $fade-on-white;
+    
+    &:hover,
+    &:focus {
+        fill: $main-blue;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+    }
+}
+
+.header__icon-1 {
+    height: 12px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.header__icon-2 {
+    height: 16px;
+    width: 10px;
+    margin-right: 10px;
+}
