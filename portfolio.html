@@ -14,32 +14,35 @@
   </style>
 </head>
 
+
 <body>
   <header class="header">
     <a class="header__link" href="./">
       <span class="logo logo--black"><span class="logo--blue">Web</span>Studio</span>
     </a>
     <nav>
-      <ul class="header__placement-1">
-        <li class="header__grup-1"><a class="header__nav header__nav--black header__underline" href="./">Agencja</a>
+      <ul class="header__nav-grup-1">
+        <li class="header__navigation"><a class="navigation navigation--black navigation__underline"
+            href="./">Agencja</a>
         </li>
-        <li class="header__grup-1"><a class="header__nav header__nav--black header__underline header__underline--active"
+        <li class="header__navigation"><a
+            class="navigation navigation--black navigation__underline  navigation__underline--active"
             href="./portfolio.html">Portfolio</a>
         </li>
-        <li class="header__grup-1"><a class="header__nav header__nav--black header__underline" href="">Kontakt</a>
+        <li class="header__navigation"><a class="navigation navigation--black navigation__underline" href="">Kontakt</a>
         </li>
       </ul>
     </nav>
-    <ul class="header__placement-2">
-      <li class="header__grup-2">
-        <a class="header__nav header__nav--grey" href="mailto:info@devstudio.com" rel="noreferrer noopener">
-          <svg class="header__icon-1">
+    <ul class="header__nav-grup-2">
+      <li class="header__contacts">
+        <a class="navigation navigation--grey" href="mailto:info@devstudio.com" rel="noreferrer noopener">
+          <svg class="header__svg-mail">
             <use href="./images/symbol-defs.svg#icon-envelope"></use>
           </svg>info@devstudio.com</a>
       </li>
-      <li class="header__grup-2">
-        <a class="header__nav header__nav--grey" href="tel:+48111111111" rel="noreferrer noopener"><svg
-            class="header__icon-2">
+      <li class="header__contacts">
+        <a class="navigation navigation--grey" href="tel:+48111111111" rel="noreferrer noopener"><svg
+            class="header__svg-phone">
             <use href="./images/symbol-defs.svg#icon-smartphone"></use>
           </svg>+48 111 111 111</a>
       </li>
@@ -254,49 +257,53 @@
       <div class="footer__flex-grup">
         <span class="logo logo--white"><span class="logo--blue">Web</span>Studio</span>
         <address>
-          <p class="footer__p footer__address-white">m. Warszawa, Aleje Jerozolimskie 21</p>
-          <p class="footer__p"><a class="footer__address-gray" href="mailto:info@example.com"
+          <p class="footer__address address-white">m. Warszawa, Aleje Jerozolimskie 21</p>
+          <p class="footer__address"><a class="address-gray" href="mailto:info@example.com"
               rel="noreferrer noopener">info@example.com
             </a>
           </p>
-          <p class="footer__p"><a class="footer__address-gray" href="tel:+48111111111" rel="noreferrer noopener">+48 111
+          <p class="footer__address"><a class="address-gray" href="tel:+48111111111" rel="noreferrer noopener">+48 111
               111 111</a>
           </p>
         </address>
       </div>
       <div class="footer__flex-grup">
         <p class="footer__title">DOŁĄCZ DO NAS</p>
-        <ul class="footer__flex-2">
-          <li class="footer__flex-2-grup">
-            <a href="./" rel="noreferrer noopener" class="footer__icon-background"><svg class="footer__icon">
+        <ul class="company-socials">
+          <li class="company-socials__list">
+            <a href="./" rel="noreferrer noopener" class="company-socials__svg-background"><svg
+                class="company-socials__svg">
                 <use href="./images/symbol-defs.svg#icon-instagram"></use>
               </svg></a>
           </li>
-          <li class="footer__flex-2-grup">
-            <a href="./" rel="noreferrer noopener" class="footer__icon-background"><svg class="footer__icon">
+          <li class="company-socials__list">
+            <a href="./" rel="noreferrer noopener" class="company-socials__svg-background"><svg
+                class="company-socials__svg">
                 <use href="./images/symbol-defs.svg#icon-twitter"></use>
               </svg></a>
           </li>
-          <li class="footer__flex-2-grup">
-            <a href="./" rel="noreferrer noopener" class="footer__icon-background"><svg class="footer__icon">
+          <li class="company-socials__list">
+            <a href="./" rel="noreferrer noopener" class="company-socials__svg-background"><svg
+                class="company-socials__svg">
                 <use href="./images/symbol-defs.svg#icon-facebook"></use>
               </svg></a>
           </li>
-          <li class="footer__flex-2-grup">
-            <a href="./" rel="noreferrer noopener" class="footer__icon-background"><svg class="footer__icon">
+          <li class="company-socials__list">
+            <a href="./" rel="noreferrer noopener" class="company-socials__svg-background"><svg
+                class="company-socials__svg">
                 <use href="./images/symbol-defs.svg#icon-linkedin"></use>
               </svg></a>
           </li>
         </ul>
       </div>
       <div class="footer__flex-grup">
-        <p class="footer__newsletter">ZAPISZ SIĘ DO NEWSLETTERA</p>
-        <form name="newsletter_signup" autocomplete="on" novalidate class="footer__newsletter-flex">
+        <p class="footer__title--signup">ZAPISZ SIĘ DO NEWSLETTERA</p>
+        <form name="newsletter_signup" autocomplete="on" novalidate class="newsletter">
           <label>
             <input type="email" name="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-              class="footer__imputbox" />
+              class="newsletter__imputbox" />
           </label>
-          <button type="submit" class="footer__button">Zapisz się <svg class="footer__button-svg">
+          <button type="submit" class="newsletter__button">Zapisz się <svg class="newsletter__button-svg">
               <use href="./images/symbol-defs.svg#icon-send-form"></use>
             </svg></button>
         </form>

@@ -1,7 +1,3 @@
-.logo--white {
-    color: $white;
-}
-
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -24,30 +20,9 @@
     }
 }
 
-.footer__address-white {
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0.03em;
-    line-height: 24px;
-}
 
-.footer__address-gray {
-    color: $fade-on-black;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0.03em;
-    line-height: 24px;
-    text-decoration: none;
 
-    &:hover,
-    &:focus {
-        color: $white;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-}
-
-.footer__p {
+.footer__address {
     margin-bottom: 9px;
     
     &:first-child {
@@ -64,13 +39,17 @@
     font-size: 14px;
     line-height: 16.41px;
     letter-spacing: 0.03em;
+    
+    &--signup {
+        margin-bottom: 20px;  
+    }
 }
 
-.footer__flex-2 {
+.company-socials {
     display: flex;
 }
 
-.footer__flex-2-grup {
+.company-socials__list {
     margin-right: 10px;
 
     &:last-child {
@@ -78,14 +57,14 @@
         }
 }
 
-.footer__icon {
+.company-socials__svg {
     box-sizing: content-box;
     height: 20px;
     width: 20px;
     fill: $white;
 }
 
-.footer__icon-background {
+.company-socials__svg-background {
     display: flex;
     padding: 12px;
     background-color: $footer-ellipse;
@@ -100,21 +79,13 @@
     }
 }
 
-.footer__newsletter {
-    padding-top: 10px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16.41px;
-    letter-spacing: 0.03em;
-}
 
-.footer__newsletter-flex {
+.newsletter {
     display: flex;
     flex-direction: row;
 }
 
-.footer__imputbox {
+.newsletter__imputbox {
     height: 50px;
     width: 358px;
     border: 1px solid $newsletter-fading;
@@ -128,7 +99,7 @@
     }
 }
 
-.footer__button {
+.newsletter__button {
     display: flex;
     text-align: center;
     align-items: center;
@@ -157,7 +128,7 @@
     }
 }
 
-.footer__button-svg {
+.newsletter__button-svg {
     height: 24px;
     width: 24px;
     margin-left: 24px;

@@ -1,4 +1,7 @@
-.sec-1 {
+// SECTION 1
+
+
+.service {
     padding-top: 200px;
     padding-bottom: 200px;
     color: $white;
@@ -8,7 +11,7 @@
     background-color: $background-color;
 }
 
-.sec-1__flex {
+.service__flex {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -18,7 +21,7 @@
 
 }
 
-.sec-1__headline {
+.service__headline {
     font-weight: 900;
     font-size: 44px;
     letter-spacing: 0.06em;
@@ -26,7 +29,7 @@
     text-align: center;
 }
 
-.sec-1__button {
+.service__button {
     box-sizing: border-box;
     color: $white;
     background-color: $main-blue;
@@ -47,6 +50,9 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 }
+
+// SECTION 2
+
 
 .sec-2 {
     display: flex;
@@ -82,7 +88,17 @@
     color: $fade-on-white;
 }
 
-.sec-3__headline {
+// SECTION 3
+
+
+.offer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-bottom: 94px;
+}
+
+.offer__headline {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -91,19 +107,12 @@
     color: $lighter-black;
 }
 
-.sec-3 {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    padding-bottom: 94px;
-}
-
-.sec-3__flex {
+.offer__flex {
     display: flex;
     margin-top: 50px;
 }
 
-.sec-3__grup {
+.offer__grup {
     margin-left: 50px;
     
     &:first-child {
@@ -134,9 +143,9 @@
     padding-top: 27px;
 }
 
+// SECTION 4
 
-
-.sec-4 {
+.employees {
     background-color: $light-grey;
     width: 1200px;
     margin: 0 auto;
@@ -145,7 +154,7 @@
     padding-bottom: 94px;
 }
 
-.sec-4__headline {
+.employees__headline {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -154,12 +163,12 @@
     color: $lighter-black;
 }
 
-.sec-4__flex {
+.employees__flex {
     display: flex;
     margin-top: 50px;
 }
 
-.sec-4__grup {
+.employees__grup {
     margin-left: 30px;
     
     &:first-child {
@@ -236,7 +245,11 @@
     }
 }
 
-.sec-5 {
+
+// SECTION 5
+
+
+.clients {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
@@ -244,7 +257,7 @@
     padding-bottom: 94px;
 }
 
-.sec-5__headline {
+.clients__headline {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -253,12 +266,12 @@
     color: $lighter-black;
 }
 
-.sec-5__flex {
+.clients__flex {
     display: flex;
     margin-top: 50px;
 }
 
-.sec-5__grup {
+.clients__grup {
     margin-right: 30px;
     
     &:last-child {
@@ -266,7 +279,7 @@
     }
 }
 
-.sec-5__logo {
+.clients__logo {
     box-sizing: border-box;
     fill: $social-svg-color-on-wight;
     height: 92px;

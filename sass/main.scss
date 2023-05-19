@@ -29,7 +29,10 @@ p {
 }
 
 @import "./utils/variables";
+@import "./components/logo";
 @import "./components/header";
+@import "./components/navigation";
+@import "./components/address";
 @import "./components/footer";
 @import "./components/index-page";
 @import "./components/portfolio-page";
