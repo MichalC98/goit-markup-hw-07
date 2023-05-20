@@ -26,24 +26,6 @@
     pointer-events: none;
 }
 
-.modal__x-symbol {
-    box-sizing: border-box;
-    display: flex;
-    height: 30px;
-    width: 30px;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.modal__x-button {
-    position: absolute;
-    top: 14px;
-    right: 14px;
-    border-radius: 50px;
-    border-color: $modal-x-border;
-    background-color: $white;
-}
-
 .modal__title {
     font-weight: 700;
     font-size: 20px;
