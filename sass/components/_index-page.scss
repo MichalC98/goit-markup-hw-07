@@ -2,8 +2,8 @@
 
 
 .service {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 106px;
+    padding-bottom: 106px;
     color: $white;
     background-size: cover;
     background-position: center center;
@@ -15,10 +15,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-
 }
 
 .service__headline {
@@ -35,9 +31,6 @@
 
 .sec-2 {
     display: flex;
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .sec-2__image {
@@ -71,10 +64,8 @@
 
 
 .offer {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    padding-bottom: 94px;
+    display: flex;
+    margin-top: 50px;
 }
 
 .offer__headline {
@@ -86,10 +77,6 @@
     color: $lighter-black;
 }
 
-.offer__flex {
-    display: flex;
-    margin-top: 50px;
-}
 
 .offer__grup {
     margin-left: 50px;
@@ -126,11 +113,6 @@
 
 .employees {
     background-color: $light-grey;
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .employees__headline {
@@ -229,9 +211,6 @@
 
 
 .clients {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
     padding-top: 94px;
     padding-bottom: 94px;
 }

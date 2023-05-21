@@ -18,17 +18,18 @@
 .navigation {
     
     &--black {
-    color: $lighter-black;
+        color: $lighter-black;
     }
     
     &--grey {
-    color: $fade-on-white;
+        color: $fade-on-white;
+        fill: $fade-on-white;
 
         &:hover,
         &:focus {
-        fill: $main-blue;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+            fill: $main-blue;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
         }
     }
 }

@@ -15,7 +15,7 @@
 
 
 <body>
-  <header class="header">
+  <header class="container header">
     <a class="header__link" href="./">
       <span class="logo logo--black"><span class="logo--blue">Web</span>Studio</span>
     </a>
@@ -51,14 +51,16 @@
 
   <main>
     <section class="service">
-      <div class="service__flex">
-        <h1 class="service__headline">EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU</h1>
-        <button class="service__button button" type="button" data-modal-open>Zamów usługę</button>
+      <div class="container container--strech">
+        <div class="service__flex">
+          <h1 class="service__headline">EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU</h1>
+          <button class="service__button button" type="button" data-modal-open>Zamów usługę</button>
+        </div>
       </div>
     </section>
 
 
-    <section class="section">
+    <section class="container container--strech-up">
       <ul class="sec-2">
         <li>
           <svg class="sec-2__image">
@@ -104,9 +106,9 @@
     </section>
 
 
-    <section class="offer">
+    <section class="container container--strech">
       <p class="offer__headline">Czym się zajmujemy</p>
-      <ul class="offer__flex">
+      <ul class="offer">
         <li class="offer__grup">
           <div class="signed-foto">
             <img src="./images/thing1.jpg" alt="pisanie kodu programu" width="370" height="294" />
@@ -130,198 +132,202 @@
 
 
     <section class="employees">
-      <p class="employees__headline">Nasz zespół</p>
-      <ul class="employees__flex">
-        <li class="employees__grup">
-          <figure class="member-card">
-            <img src="./images/person1.jpg" alt="brodaty mężczyzna" width="270" height="260" />
-            <figcaption>
-              <p class="member-card__name">Jon Doe</p>
-              <p class="member-card__position">Product designer</p>
-              <ul class="member-card__flex">
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                    </svg></a>
-                </li>
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                    </svg></a>
-                </li>
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                    </svg></a>
-                </li>
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                    </svg></a>
-                </li>
-              </ul>
-            </figcaption>
-          </figure>
-        </li>
-        <li class="employees__grup">
-          <figure class="member-card">
-            <img src="./images/person2.jpg" alt="kobieta" width="270" height="260" />
-            <figcaption>
-              <p class="member-card__name">Jon Doe</p>
-              <p class="member-card__position">Frontend Developer</p>
-              <ul class="member-card__flex">
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                    </svg></a>
-                </li>
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                    </svg></a>
-                </li>
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                    </svg></a>
-                </li>
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                    </svg></a>
-                </li>
-              </ul>
-            </figcaption>
-          </figure>
-        </li>
-        <li class="employees__grup">
-          <figure class="member-card">
-            <img src="./images/person3.jpg" alt="mężczyzna" width="270" height="260" />
-            <figcaption>
-              <p class="member-card__name">Jon Doe</p>
-              <p class="member-card__position">Marketing</p>
-              <ul class="member-card__flex">
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                    </svg></a>
-                </li>
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                    </svg></a>
-                </li>
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                    </svg></a>
-                </li>
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                    </svg></a>
-                </li>
-              </ul>
-            </figcaption>
-          </figure>
-        </li>
-        <li class="employees__grup">
-          <figure class="member-card">
-            <img src="./images/person4.jpg" alt="brodaty mężczyzna z tatuażem" width="270" height="260" />
-            <figcaption>
-              <p class="member-card__name">Jon Doe</p>
-              <p class="member-card__position">UI Designer</p>
-              <ul class="member-card__flex">
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                    </svg></a>
-                </li>
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                    </svg></a>
-                </li>
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                    </svg></a>
-                </li>
-                <li class="member-card__grup">
-                  <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
-                      class="member-card__svg">
-                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                    </svg></a>
-                </li>
-              </ul>
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
+      <div class="container container--strech">
+        <p class="employees__headline">Nasz zespół</p>
+        <ul class="employees__flex">
+          <li class="employees__grup">
+            <figure class="member-card">
+              <img src="./images/person1.jpg" alt="brodaty mężczyzna" width="270" height="260" />
+              <figcaption>
+                <p class="member-card__name">Jon Doe</p>
+                <p class="member-card__position">Product designer</p>
+                <ul class="member-card__flex">
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg></a>
+                  </li>
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg></a>
+                  </li>
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg></a>
+                  </li>
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg></a>
+                  </li>
+                </ul>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="employees__grup">
+            <figure class="member-card">
+              <img src="./images/person2.jpg" alt="kobieta" width="270" height="260" />
+              <figcaption>
+                <p class="member-card__name">Jon Doe</p>
+                <p class="member-card__position">Frontend Developer</p>
+                <ul class="member-card__flex">
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg></a>
+                  </li>
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg></a>
+                  </li>
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg></a>
+                  </li>
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg></a>
+                  </li>
+                </ul>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="employees__grup">
+            <figure class="member-card">
+              <img src="./images/person3.jpg" alt="mężczyzna" width="270" height="260" />
+              <figcaption>
+                <p class="member-card__name">Jon Doe</p>
+                <p class="member-card__position">Marketing</p>
+                <ul class="member-card__flex">
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg></a>
+                  </li>
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg></a>
+                  </li>
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg></a>
+                  </li>
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg></a>
+                  </li>
+                </ul>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="employees__grup">
+            <figure class="member-card">
+              <img src="./images/person4.jpg" alt="brodaty mężczyzna z tatuażem" width="270" height="260" />
+              <figcaption>
+                <p class="member-card__name">Jon Doe</p>
+                <p class="member-card__position">UI Designer</p>
+                <ul class="member-card__flex">
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg></a>
+                  </li>
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg></a>
+                  </li>
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg></a>
+                  </li>
+                  <li class="member-card__grup">
+                    <a href="./" rel="noreferrer noopener" class="member-card__svg-background"><svg
+                        class="member-card__svg">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg></a>
+                  </li>
+                </ul>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
     </section>
 
 
-    <section class="clients">
-      <p class="clients__headline">Nasi klienci</p>
-      <ul class="clients__flex">
-        <li class="clients__grup">
-          <svg tabindex="0" class="clients__logo">
-            <use href="./images/symbol-defs.svg#icon-logo-1">
-            </use>
-          </svg>
-        </li>
-        <li class="clients__grup">
-          <svg tabindex="0" class="clients__logo">
-            <use href="./images/symbol-defs.svg#icon-logo-2">
-            </use>
-          </svg>
-        </li>
-        <li class="clients__grup">
-          <svg tabindex="0" class="clients__logo">
-            <use href="./images/symbol-defs.svg#icon-logo-3">
-            </use>
-          </svg>
-        </li>
-        <li class="clients__grup">
-          <svg tabindex="0" class="clients__logo">
-            <use href="./images/symbol-defs.svg#icon-logo-4">
-            </use>
-          </svg>
-        </li>
-        <li class="clients__grup">
-          <svg tabindex="0" class="clients__logo">
-            <use href="./images/symbol-defs.svg#icon-logo-5">
-            </use>
-          </svg>
-        </li>
-        <li class="clients__grup">
-          <svg tabindex="0" class="clients__logo">
-            <use href="./images/symbol-defs.svg#icon-logo-6">
-            </use>
-          </svg>
-        </li>
-      </ul>
+    <section class="container">
+      <div class="clients">
+        <p class="clients__headline">Nasi klienci</p>
+        <ul class="clients__flex">
+          <li class="clients__grup">
+            <svg tabindex="0" class="clients__logo">
+              <use href="./images/symbol-defs.svg#icon-logo-1">
+              </use>
+            </svg>
+          </li>
+          <li class="clients__grup">
+            <svg tabindex="0" class="clients__logo">
+              <use href="./images/symbol-defs.svg#icon-logo-2">
+              </use>
+            </svg>
+          </li>
+          <li class="clients__grup">
+            <svg tabindex="0" class="clients__logo">
+              <use href="./images/symbol-defs.svg#icon-logo-3">
+              </use>
+            </svg>
+          </li>
+          <li class="clients__grup">
+            <svg tabindex="0" class="clients__logo">
+              <use href="./images/symbol-defs.svg#icon-logo-4">
+              </use>
+            </svg>
+          </li>
+          <li class="clients__grup">
+            <svg tabindex="0" class="clients__logo">
+              <use href="./images/symbol-defs.svg#icon-logo-5">
+              </use>
+            </svg>
+          </li>
+          <li class="clients__grup">
+            <svg tabindex="0" class="clients__logo">
+              <use href="./images/symbol-defs.svg#icon-logo-6">
+              </use>
+            </svg>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
 
 
   <footer class="footer">
-    <div class="footer__flex">
+    <div class="container footer__flex">
       <div class="footer__flex-grup">
         <span class="logo logo--white"><span class="logo--blue">Web</span>Studio</span>
         <address>
